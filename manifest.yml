@@ -10,9 +10,9 @@ declared-services:
     plan: Shared
 applications:
 - services:
-   - conversation-service
-   - weatherinsights-service
-   - cloudantNoSQLDB-service
+   - conversation-service-1
+   - weatherinsights-service-1
+   - cloudantNoSQLDB-service-1
   name: text-bot
   command: npm start
   path: .
